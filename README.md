@@ -6,6 +6,14 @@ A machine learning project implementing K-means clustering for automated backgro
 
 This project explores the use of K-means clustering to segment images and remove backgrounds, potentially improving the performance of downstream image classification models. The approach identifies background regions by analyzing color clusters that predominantly appear at image borders.
 
+### Installation
+
+To install the required packages, you can use pip:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Key Features
 
 - **Automated Background Removal**: Uses K-means clustering in LAB color space to identify and remove background regions
